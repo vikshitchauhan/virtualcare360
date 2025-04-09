@@ -1,4 +1,4 @@
-<h1 align="center">🏥 Hospital Management System 🏥</h1>
+<h1 align="center">🏥 VirtualCare 360 (Healthcare Platform) 🏥</h1>
 
 <h2>📌 Overview</h2>
 
