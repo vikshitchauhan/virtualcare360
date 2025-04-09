@@ -2,7 +2,7 @@
 
 <h2>📌 Overview</h2>
 
-The Hospital Management System is designed to streamline hospital operations by providing secure access to medical records, appointments, medicines, and more. It includes separate login portals for Admins, Staff (Doctors, Nurses, Accountants, etc.), and Patients, ensuring efficient management of hospital resources and patient care.
+Virtual Care is a cloud-based healthcare platform built to optimize hospital operations and enhance patient care. It offers secure, role-based access for administrators, medical staff, and patients, enabling seamless management of appointments, medical records, prescriptions, billing, and other critical workflows. Designed to improve efficiency and accessibility, Virtual Care brings together all aspects of hospital management into a unified digital system.
 <br> <br>
 
 <h1 align="center">🛠 Features</h2>
