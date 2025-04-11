@@ -46,9 +46,11 @@
 
 Check out the Figma design for this project:
 
-🔗<a href="https://www.figma.com/design/KXfChXiriBszPYwuWTkm7Y/Hospital-management-(Community)?node-id=0-1&t=kdBmJ3OqRFkJ5FyD-1" target="_blank">Login Page</a>
+🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=3-536&p=f&t=igoKCoA05dvnNUIY-0" target="_blank">Home Page</a>
 
-🔗<a href="https://www.figma.com/design/iAwsUst4wBuzKT0mKPmRd0/Hospital-management-(Community)?node-id=1-2&t=SCK2GprPJvAzPTmx-1" target="_blank">Admin Dashboard</a>
+🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=0-1&p=f&t=igoKCoA05dvnNUIY-0" target="_blank">Doctor Login Page</a>
+
+🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=2-174&p=f&t=igoKCoA05dvnNUIY-0" target="_blank">Admin Dashboard</a>
 
 
 <h2>📊 ER Diagram</h2>
