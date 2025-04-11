@@ -64,7 +64,16 @@ Check out the Figma design for this project:
 
 -  Design & UI: Figma
 
+<h2>💻Team Member</h2>
 
+-  Kundan: UI/UX, Report, PPT, Backend
+
+-  Laxmi: Frontend
+
+-  Kajal: Backend and frontend
+  
+-  Vikshit: Backend
+  
 <h2>📜 License</h2>
 
 © 2025 Hospital Management System. All rights reserved. 🔒 Unauthorized copying, distribution, or modification of this project without permission is strictly prohibited. 🚀
