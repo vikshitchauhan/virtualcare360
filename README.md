@@ -78,4 +78,4 @@ Check out the Figma design for this project:
   
 <h2>📜 License</h2>
 
-© 2025 Hospital Management System. All rights reserved. 🔒 Unauthorized copying, distribution, or modification of this project without permission is strictly prohibited. 🚀
+© 2025 VirtualCare 360. All rights reserved. 🔒 Unauthorized copying, distribution, or modification of this project without permission is strictly prohibited. 🚀
