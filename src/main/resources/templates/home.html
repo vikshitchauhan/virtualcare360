@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" th:replace="~{base::parent}">
+<html lang="en" th:replace="~{base::parent(~{::#content},~{::title})}">
 <head>
- 
+ <title>
+  service page
+ </title>
 </head>
 <body>
-  <div >
-   
+  <div  id="content">
+ <div class="bg-slate-400 text-xl ">
+this is a home page
+ </div>
   </div>
 </body>
 </html>
