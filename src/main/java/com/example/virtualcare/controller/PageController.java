@@ -14,5 +14,24 @@ public class PageController {
   public String homePage() {
       return "home"; // This renders templates/home.html
   }
+  
+  @RequestMapping("/about")
+public static String aboutpage(){
+    System.out.println("about page loading");
+    return "about";
+}
+@RequestMapping("/service")
+public static String servicepage(){
+    System.out.println("service page loading");
+    return "service";
+}
+//contact page
+
+@GetMapping("/contact")
+public static String contactpage(){
+    System.out.println("contact page loading");
+    return "contact";
+}
+
 
 }
