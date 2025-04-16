@@ -50,7 +50,7 @@ Check out the Figma design for this project:
 
 🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=0-1&p=f&t=igoKCoA05dvnNUIY-0" target="_blank">Doctor Login Page</a>
 
-🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=2-174&p=f&t=igoKCoA05dvnNUIY-0" target="_blank">Admin Dashboard</a>
+🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=42-388&t=oQvkdBfRjGPfo48D-1" target="_blank">Admin Dashboard</a>
 
 
 <h2>📊 ER Diagram</h2>
