@@ -3,7 +3,7 @@
 <h2>📌 Overview</h2>
 
 <p>Virtual Care is a cloud-based healthcare platform built to optimize hospital operations and enhance patient care. It offers secure, role-based access for administrators, medical staff, and patients, enabling seamless management of appointments, medical records, prescriptions, billing, and other critical workflows. Designed to improve efficiency and accessibility, Virtual Care brings together all aspects of hospital management into a unified digital system.</p>
-<br> <br>
+<br> 
 
 <h1 align="center">🛠 Features</h2>
 
