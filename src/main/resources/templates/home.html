@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" th:replace="~{base::parent(~{::#content},~{::title})}">
+<html lang="en" th:replace="~{base::parent(~{::#content},~{::title},~{::script})}">
 <head>
  <title>
-  service page
+  home page
  </title>
 </head>
 <body>
@@ -11,5 +11,8 @@
 this is a home page
  </div>
   </div>
+  <script>
+    console.log("this is home page script")
+  </script>
 </body>
 </html>
