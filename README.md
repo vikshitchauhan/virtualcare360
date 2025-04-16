@@ -46,9 +46,9 @@
 
 Check out the Figma design for this project:
 
-🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=3-536&p=f&t=igoKCoA05dvnNUIY-0" target="_blank">Home Page</a>
+🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=69-2&t=oOQeYbjR8hNbkoPu-1" target="_blank">Home Page</a>
 
-🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=0-1&p=f&t=igoKCoA05dvnNUIY-0" target="_blank">Doctor Login Page</a>
+🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=0-1&t=oOQeYbjR8hNbkoPu-1" target="_blank">Doctor Login Page</a>
 
 🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=42-388&t=oQvkdBfRjGPfo48D-1" target="_blank">Admin Dashboard</a>
 
