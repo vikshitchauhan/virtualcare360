@@ -3,7 +3,7 @@
 <h2>📌 Overview</h2>
 
 <p>Virtual Care is a cloud-based healthcare platform built to optimize hospital operations and enhance patient care. It offers secure, role-based access for administrators, medical staff, and patients, enabling seamless management of appointments, medical records, prescriptions, billing, and other critical workflows. Designed to improve efficiency and accessibility, Virtual Care brings together all aspects of hospital management into a unified digital system.</p>
-<br> <br>
+<br> 
 
 <h1 align="center">🛠 Features</h2>
 
@@ -46,9 +46,11 @@
 
 Check out the Figma design for this project:
 
-🔗<a href="https://www.figma.com/design/KXfChXiriBszPYwuWTkm7Y/Hospital-management-(Community)?node-id=0-1&t=kdBmJ3OqRFkJ5FyD-1" target="_blank">Login Page</a>
+🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=69-2&t=GexHXOZHdAf8BizF-1" target="_blank">Home Page</a>
 
-🔗<a href="https://www.figma.com/design/iAwsUst4wBuzKT0mKPmRd0/Hospital-management-(Community)?node-id=1-2&t=SCK2GprPJvAzPTmx-1" target="_blank">Admin Dashboard</a>
+🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=0-1&t=oOQeYbjR8hNbkoPu-1" target="_blank">Doctor Login Page</a>
+
+🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=42-388&t=oQvkdBfRjGPfo48D-1" target="_blank">Admin Dashboard</a>
 
 
 <h2>📊 ER Diagram</h2>
@@ -76,4 +78,4 @@ Check out the Figma design for this project:
   
 <h2>📜 License</h2>
 
-© 2025 Hospital Management System. All rights reserved. 🔒 Unauthorized copying, distribution, or modification of this project without permission is strictly prohibited. 🚀
+© 2025 VirtualCare 360. All rights reserved. 🔒 Unauthorized copying, distribution, or modification of this project without permission is strictly prohibited. 🚀
