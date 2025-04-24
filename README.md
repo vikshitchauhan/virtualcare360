@@ -52,6 +52,8 @@ Check out the Figma design for this project:
 
 🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=42-388&t=oQvkdBfRjGPfo48D-1" target="_blank">Admin Dashboard</a>
 
+🔗<a href="https://www.figma.com/design/DbdWbUE4GRyb01dnloYHxt/VirtualCare360?node-id=136-391&t=07KSMJXbPh6vwlLV-1" target="_blank">Availabe Doctors</a>
+
 
 <h2>📊 ER Diagram</h2>
 
