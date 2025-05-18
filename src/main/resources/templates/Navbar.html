@@ -1,0 +1,51 @@
+
+  <!-- Navbar Fragment -->
+  <nav data-th-fragment="navbar"
+       class="bg-white border-gray-200 dark:bg-gray-900 fixed top-0 left-0 w-full z-10 shadow-md">
+    <div class="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4">
+      
+      <!-- Brand -->
+      <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Logo" />
+        <span class="text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+      </a>
+
+      <!-- Buttons (Login & Signup) -->
+      <div class="flex md:order-2 space-x-4">
+        <button type="button"
+                class="bg-white  hover:bg-green-900 border-2 border-green-500  rounded text-green-600 font-medium text-sm px-4 py-2 rounded-lg transition" >
+          Login
+        </button>
+        <button type="button"
+                class="bg-green-600 h text-white font-medium text-sm px-4 py-2 rounded-lg transition"  >
+          Signup
+        </button>
+        <!-- Hamburger button for mobile -->
+        <button data-collapse-toggle="navbar-menu" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none"
+                aria-controls="navbar-menu" aria-expanded="false"
+                onclick="document.getElementById('navbar-menu').classList.toggle('hidden')">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none"
+               viewBox="0 0 17 14" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Navigation Links -->
+      <div id="navbar-menu"
+           class="hidden md:flex md:items-center md:space-x-8 md:order-1 w-full md:w-auto mt-4 md:mt-0">
+        <ul
+          class="flex flex-col md:flex-row md:space-x-8 font-medium bg-gray-50 md:bg-transparent rounded-lg p-4 md:p-0 dark:bg-gray-800 md:dark:bg-transparent">
+          <li><a href="#" class="block py-2 px-3 text-blue-700 md:text-blue-700 dark:text-blue-400">Home</a></li>
+          <li><a href="#" class="block py-2 px-3 text-gray-900 dark:text-white hover:text-blue-600">Blogs</a></li>
+          <li><a href="#" class="block py-2 px-3 text-gray-900 dark:text-white hover:text-blue-600">Book Appointment</a></li>
+          <li><a href="#" class="block py-2 px-3 text-gray-900 dark:text-white hover:text-blue-600">Our Doctors</a></li>
+          <li><a href="#" class="block py-2 px-3 text-gray-900 dark:text-white hover:text-blue-600">Services</a></li>
+          <li><a href="#" class="block py-2 px-3 text-gray-900 dark:text-white hover:text-blue-600">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>

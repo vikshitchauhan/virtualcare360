@@ -17,25 +17,28 @@
 />
 </head>
 <body>
+
+
+
+
+
+
+
+   <!-- Navbar for non-logged-in user -->
+  <!--<div th:unless="${loggedInUser}">
+    
+  </div>-->
+
+  <div th:replace="~{navbar :: navbar}"></div>
+
+
+
+
   <!--main content-->
+  <div class="p-4 pt-16">
+    
   <section th:replace="${content}"></section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </div>
 
 
 
