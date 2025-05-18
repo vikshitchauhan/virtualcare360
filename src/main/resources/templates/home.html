@@ -2,122 +2,15 @@
 <html lang="en" th:replace="~{base::parent(~{::#content},~{::title},~{::script})}">
 <head>
   <title>Home Page</title>
-  <style>
-    @keyframes slide-in-left {
-      0% { transform: translateX(-50px); opacity: 0; }
-      100% { transform: translateX(0); opacity: 1; }
-    }
-    @keyframes slide-in-right {
-      0% { transform: translateX(50px); opacity: 0; }
-      100% { transform: translateX(0); opacity: 1; }
-    }
-    @keyframes slide-in-up {
-      0% { transform: translateY(30px); opacity: 0; }
-      100% { transform: translateY(0); opacity: 1; }
-    }
-    .animate-slide-in-left {
-      animation: slide-in-left 1s ease-out both;
-    }
-    .animate-slide-in-right {
-      animation: slide-in-right 1s ease-out both;
-    }
-    .animate-slide-in-up {
-      animation: slide-in-up 1s ease-out both;
-    }
-  </style>
+ 
 </head>
 <body>
   <div id="content">
+    This is the home page.
 
-    <!-- Navbar -->
-    <nav class="bg-blue-700 text-white shadow">
-      <div class="container mx-auto flex justify-between items-center py-5 px-8">
-        <a href="#" class="text-3xl font-bold tracking-wide">VirtualCare360</a>
-        <ul class="flex space-x-8 text-lg">
-          <li><a href="#" class="hover:text-blue-200 transition">Home</a></li>
-          <li><a href="#services" class="hover:text-blue-200 transition">Services</a></li>
-          <li><a href="#about" class="hover:text-blue-200 transition">About</a></li>
-          <li><a href="#contact" class="hover:text-blue-200 transition">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+   
 
-    <!-- Hero Section -->
-    <section class="bg-blue-50 py-24">
-      <div class="container mx-auto flex flex-col md:flex-row items-center gap-12 px-8">
-        <div class="md:w-1/2 animate-slide-in-left">
-          <h1 class="text-5xl font-bold leading-tight mb-6 text-blue-800">Your Health, Our Priority</h1>
-          <p class="mb-6 text-lg text-gray-700">
-            Book appointments, consult specialists, and manage health—all in one place.
-          </p>
-          <a href="#contact" class="bg-blue-700 text-white px-8 py-3 rounded hover:bg-blue-800 transition">Book Appointment</a>
-        </div>
-        <div class="md:w-1/2 animate-slide-in-right">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
-               alt="Healthcare"
-               class="rounded-lg shadow-lg w-full max-w-sm mx-auto">
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="py-24 bg-white">
-      <div class="container mx-auto px-8">
-        <h2 class="text-4xl font-bold text-center text-blue-800 mb-16">Our Services</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 animate-slide-in-up">
-          <div class="bg-blue-50 p-8 rounded-lg shadow hover:shadow-lg transition">
-            <h3 class="text-2xl font-bold mb-4 text-blue-700">🩺 General Checkups</h3>
-            <p class="text-gray-600">Routine health screenings and comprehensive exams.</p>
-          </div>
-          <div class="bg-blue-50 p-8 rounded-lg shadow hover:shadow-lg transition">
-            <h3 class="text-2xl font-bold mb-4 text-blue-700">👨‍⚕️ Specialist Consultations</h3>
-            <p class="text-gray-600">Expert guidance from certified professionals.</p>
-          </div>
-          <div class="bg-blue-50 p-8 rounded-lg shadow hover:shadow-lg transition">
-            <h3 class="text-2xl font-bold mb-4 text-blue-700">🚑 Emergency Care</h3>
-            <p class="text-gray-600">Round-the-clock support for critical needs.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="bg-blue-100 py-24">
-      <div class="container mx-auto px-8 text-center animate-slide-in-up">
-        <h2 class="text-4xl font-bold text-blue-800 mb-10">About Us</h2>
-        <p class="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-          HealthCare Plus is dedicated to providing top-tier medical care through a user-friendly digital platform. With certified doctors and advanced services, we bring quality healthcare right to your fingertips.
-        </p>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-24 bg-white">
-      <div class="container mx-auto px-8">
-        <h2 class="text-4xl font-bold text-center text-blue-800 mb-16">Contact Us</h2>
-        <div class="max-w-xl mx-auto animate-slide-in-up">
-          <form class="space-y-6">
-            <input type="text" placeholder="Your Name"
-                   class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" />
-            <input type="email" placeholder="Your Email"
-                   class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" />
-            <textarea placeholder="Your Message"
-                      class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
-            <button type="submit"
-                    class="bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition">
-              Send Message
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-blue-700 text-white py-10">
-      <div class="container mx-auto px-8 text-center">
-        <p class="text-sm">&copy; 2025 HealthCare Plus. All rights reserved.</p>
-      </div>
-    </footer>
+    
 
   </div>
 
