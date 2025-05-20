@@ -32,6 +32,11 @@ public static String contactpage(){
     System.out.println("contact page loading");
     return "contact";
 }
+@GetMapping("/doctors")
+public static String doctorspage(){
+    System.out.println("doctor page loading");
+    return "Doctors";
+}
 
 
 }
