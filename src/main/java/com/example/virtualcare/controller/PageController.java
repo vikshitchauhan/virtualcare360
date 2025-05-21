@@ -37,6 +37,11 @@ public static String doctorspage(){
     System.out.println("doctor page loading");
     return "Doctors";
 }
+@GetMapping("/fitness")
+public static String fitnesspage(){
+    System.out.println("fitness page loading");
+    return "fitness";
+}
 
 
 }

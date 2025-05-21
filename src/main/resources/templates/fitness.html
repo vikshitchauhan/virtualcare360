@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base::parent(~{::#content},~{::title},~{::script})}">
+
+<head>
+  <title>
+    service page
+  </title>
+</head>
+
+<body>
+  <div id="content">
+    <div class="pt-6">
+      <header class="bg-gradient-to-r from-green-300 to-yellow-200 py-12 px-4">
+        <div class="container mx-auto max-w-4xl">
+          <h1 class="text-4xl font-bold mb-4">Complete Fitness Guide</h1>
+          <p class="text-xl text-gray-700">Learn what exercises to do, what to avoid, and how to achieve your fitness
+            goals safely and effectively.</p>
+        </div>
+      </header>
+
+      <!-- Main Content -->
+      <main class="container mx-auto max-w-4xl px-4 py-8">
+        <!-- Introduction -->
+        <section class="mb-12">
+          <h2 class="text-2xl text-green-500 font-bold mb-4 text-primary">Understanding Fitness Fundamentals</h2>
+          <p class="mb-4">Fitness is more than just exercise—it's a lifestyle that encompasses physical activity, proper
+            nutrition, adequate rest, and mental well-being. Before diving into specific exercises, it's important to
+            understand the core components of fitness:</p>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <div class="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                  class="h-10 pt-2 pb-1 bg-green-200 w-16 rounded-full text-green-600" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">Cardiovascular Endurance</h3>
+              <p class="text-gray-600">The ability of your heart and lungs to supply oxygen to your body during
+                sustained physical activity.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <div class="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                  class="h-10 pt-2 pb-2 bg-green-200 w-16 rounded-full text-green-600" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">Muscular Strength</h3>
+              <p class="text-gray-600">The amount of force your muscles can exert against resistance in a single effort.
+              </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <div class="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                  class="h-10 pt-2 pb-2 bg-green-200 w-16 rounded-full text-green-600" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">Flexibility</h3>
+              <p class="text-gray-600">The range of motion possible around a specific joint or series of joints.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Types of Exercises -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-4 text-green-600">Types of Exercises You Should Include</h2>
+          <p class="mb-6">A well-rounded fitness routine should include different types of exercises to develop all
+            aspects of physical fitness. Here are the main categories:</p>
+
+          <!-- Strength Training -->
+          <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+            <h3 class="text-xl font-semibold mb-3 text-green-600">Strength Training</h3>
+            <p class="mb-4">Strength training involves using resistance to build muscle strength and endurance. This can
+              include free weights, machines, resistance bands, or bodyweight exercises.</p>
+
+            <h4 class="font-semibold mb-2">Key Exercises:</h4>
+            <ul class="list-disc pl-6 mb-4 space-y-2">
+              <li><span class="font-medium">Squats:</span> Works quadriceps, hamstrings, and glutes. Great for building
+                lower body strength.</li>
+              <li><span class="font-medium">Deadlifts:</span> Targets multiple muscle groups including back, glutes, and
+                hamstrings. Excellent for overall strength.</li>
+              <li><span class="font-medium">Bench Press:</span> Develops chest, shoulders, and triceps. A fundamental
+                upper body exercise.</li>
+              <li><span class="font-medium">Rows:</span> Strengthens back muscles and improves posture. Counterbalances
+                pushing exercises.</li>
+              <li><span class="font-medium">Overhead Press:</span> Builds shoulder and tricep strength. Important for
+                upper body development.</li>
+            </ul>
+
+            <h4 class="font-semibold mb-2">Frequency Recommendation:</h4>
+            <p class="text-gray-600">2-3 times per week, allowing 48 hours of recovery between sessions for the same
+              muscle group.</p>
+          </div>
+
+          <!-- Cardiovascular Exercise -->
+          <div class="bg-white p-6 rounded-lg  shadow-md mb-6">
+            <h3 class="text-xl font-semibold mb-3text-green-600 text-secondary">Cardiovascular Exercise</h3>
+            <p class="mb-4">Cardio exercises increase your heart rate and improve cardiovascular health, endurance, and
+              help with weight management.</p>
+
+            <h4 class="font-semibold mb-2">Key Exercises:</h4>
+            <ul class="list-disc pl-6 mb-4 space-y-2">
+              <li><span class="font-medium">Walking/Running:</span> Accessible to most people and requires minimal
+                equipment. Great for beginners to advanced.</li>
+              <li><span class="font-medium">Cycling:</span> Low-impact option that's excellent for building leg strength
+                and cardiovascular endurance.</li>
+              <li><span class="font-medium">Swimming:</span> Full-body workout that's gentle on joints. Excellent for
+                all fitness levels.</li>
+              <li><span class="font-medium">HIIT (High-Intensity Interval Training):</span> Alternating between intense
+                activity and rest periods. Efficient for burning calories.</li>
+              <li><span class="font-medium">Jumping Rope:</span> Simple yet effective for improving coordination and
+                burning calories.</li>
+            </ul>
+
+            <h4 class="font-semibold mb-2">Frequency Recommendation:</h4>
+            <p class="text-gray-600">150 minutes of moderate-intensity or 75 minutes of high-intensity cardio per week,
+              spread across multiple days.</p>
+          </div>
+
+          <!-- Flexibility and Mobility -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-3 text-green-600 text-secondary">Flexibility and Mobility</h3>
+            <p class="mb-4">Flexibility exercises improve range of motion, reduce injury risk, and enhance performance
+              in other physical activities.</p>
+
+            <h4 class="font-semibold mb-2">Key Exercises:</h4>
+            <ul class="list-disc pl-6 mb-4 space-y-2">
+              <li><span class="font-medium">Static Stretching:</span> Holding a stretch position for 15-60 seconds. Best
+                performed after workouts.</li>
+              <li><span class="font-medium">Dynamic Stretching:</span> Active movements that take joints through their
+                range of motion. Ideal before workouts.</li>
+              <li><span class="font-medium">Yoga:</span> Combines stretching with strength and balance. Great for
+                overall flexibility and mindfulness.</li>
+              <li><span class="font-medium">Foam Rolling:</span> Self-myofascial release technique that helps release
+                muscle tightness.</li>
+              <li><span class="font-medium">Joint Mobility Exercises:</span> Controlled movements that take joints
+                through their full range of motion.</li>
+            </ul>
+
+            <h4 class="font-semibold mb-2">Frequency Recommendation:</h4>
+            <p class="text-gray-600">At least 2-3 times per week, ideally incorporating some form of stretching daily.
+            </p>
+          </div>
+        </section>
+
+        <!-- Common Mistakes to Avoid -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-4  text-green-600 text-primary">Common Fitness Mistakes to Avoid</h2>
+          <p class="mb-6">Being aware of these common mistakes can help you exercise more effectively and reduce your
+            risk of injury:</p>
+
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <ul class="space-y-4">
+              <li class="flex items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 mr-2 flex-shrink-0 mt-0.5"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                <div>
+                  <h4 class="font-semibold">Poor Form and Technique</h4>
+                  <p class="text-gray-600">Incorrect form can lead to injuries and reduced effectiveness. Always
+                    prioritize proper technique over lifting heavier weights or doing more repetitions.</p>
+                </div>
+              </li>
+
+              <li class="flex items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 mr-2 flex-shrink-0 mt-0.5"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                <div>
+                  <h4 class="font-semibold">Skipping Warm-up and Cool-down</h4>
+                  <p class="text-gray-600">Warming up prepares your body for exercise and reduces injury risk. Cooling
+                    down helps with recovery and reduces muscle soreness.</p>
+                </div>
+              </li>
+
+              <li class="flex items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 mr-2 flex-shrink-0 mt-0.5"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                <div>
+                  <h4 class="font-semibold">Overtraining</h4>
+                  <p class="text-gray-600">Not allowing adequate recovery time between workouts can lead to fatigue,
+                    decreased performance, and increased injury risk. Rest is when your body rebuilds and gets stronger.
+                  </p>
+                </div>
+              </li>
+
+              <li class="flex items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 mr-2 flex-shrink-0 mt-0.5"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                <div>
+                  <h4 class="font-semibold">Inconsistent Training</h4>
+                  <p class="text-gray-600">Sporadic exercise doesn't lead to significant improvements. Consistency is
+                    key for seeing results and building habits.</p>
+                </div>
+              </li>
+
+              <li class="flex items-start">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 mr-2 flex-shrink-0 mt-0.5"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                <div>
+                  <h4 class="font-semibold">Neglecting Nutrition</h4>
+                  <p class="text-gray-600">Exercise is only part of the equation. Proper nutrition is essential for
+                    fueling workouts, recovery, and achieving fitness goals.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Workout Routines for Different Goals -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-4 text-green-600 text-primary">Workout Routines Based on Your Goals</h2>
+          <p class="mb-6">Different fitness goals require different approaches. Here are sample routines based on common
+            objectives:</p>
+
+          <!-- Tabs for different goals -->
+          <div class="mb-4 border-b border-gray-200">
+            <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="goalTabs" role="tablist">
+              <li class="mr-2" role="presentation">
+                <button class="inline-block p-4 border-b-2 border-primary text-primary rounded-t-lg active"
+                  id="weight-loss-tab" data-tabs-target="#weight-loss" type="button" role="tab"
+                  aria-controls="weight-loss" aria-selected="true">Weight Loss</button>
+              </li>
+              <li class="mr-2" role="presentation">
+                <button
+                  class="inline-block p-4 border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 rounded-t-lg"
+                  id="muscle-gain-tab" data-tabs-target="#muscle-gain" type="button" role="tab"
+                  aria-controls="muscle-gain" aria-selected="false">Muscle Gain</button>
+              </li>
+              <li class="mr-2" role="presentation">
+                <button
+                  class="inline-block p-4 border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 rounded-t-lg"
+                  id="general-fitness-tab" data-tabs-target="#general-fitness" type="button" role="tab"
+                  aria-controls="general-fitness" aria-selected="false">General Fitness</button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tab content -->
+          <div id="goalTabContent">
+            <!-- Weight Loss Tab -->
+            <div class="bg-white p-6 rounded-lg shadow-md" id="weight-loss" role="tabpanel"
+              aria-labelledby="weight-loss-tab">
+              <h3 class="text-xl font-semibold mb-4">Weight Loss Routine</h3>
+
+              <p class="mb-4">This routine focuses on burning calories while preserving muscle mass. It combines cardio,
+                strength training, and high-intensity intervals.</p>
+
+              <div class="mb-6">
+                <h4 class="font-semibold mb-2">Weekly Schedule:</h4>
+                <ul class="space-y-3">
+                  <li class="flex">
+                    <span class="font-medium w-24">Monday:</span>
+                    <span>HIIT Cardio (20-30 minutes) + Full Body Strength (30 minutes)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Tuesday:</span>
+                    <span>Moderate-Intensity Cardio (40-45 minutes) + Core Training (15 minutes)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Wednesday:</span>
+                    <span>Rest or Light Activity (walking, yoga)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Thursday:</span>
+                    <span>Circuit Training (45 minutes, combining strength and cardio elements)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Friday:</span>
+                    <span>Upper Body Strength (30 minutes) + HIIT Cardio (20 minutes)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Saturday:</span>
+                    <span>Lower Body Strength (30 minutes) + Steady-State Cardio (30 minutes)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Sunday:</span>
+                    <span>Rest Day or Active Recovery (light walking, stretching)</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 class="font-semibold mb-2">Key Tips:</h4>
+                <ul class="list-disc pl-6 space-y-1">
+                  <li>Maintain a calorie deficit through a combination of diet and exercise</li>
+                  <li>Include strength training to preserve muscle mass</li>
+                  <li>Focus on compound exercises that burn more calories</li>
+                  <li>Keep rest periods short (30-60 seconds) during strength training</li>
+                  <li>Stay consistent with both exercise and nutrition</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Muscle Gain Tab (hidden by default) -->
+            <div class="hidden bg-white p-6 rounded-lg shadow-md" id="muscle-gain" role="tabpanel"
+              aria-labelledby="muscle-gain-tab">
+              <h3 class="text-xl font-semibold mb-4">Muscle Building Routine</h3>
+
+              <p class="mb-4">This routine focuses on progressive overload and adequate recovery to stimulate muscle
+                growth. It uses a split routine to target different muscle groups.</p>
+
+              <div class="mb-6">
+                <h4 class="font-semibold mb-2">Weekly Schedule:</h4>
+                <ul class="space-y-3">
+                  <li class="flex">
+                    <span class="font-medium w-24">Monday:</span>
+                    <span>Chest and Triceps (Bench Press, Incline Press, Dips, Tricep Extensions)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Tuesday:</span>
+                    <span>Back and Biceps (Rows, Pull-ups, Lat Pulldowns, Bicep Curls)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Wednesday:</span>
+                    <span>Rest or Light Cardio</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Thursday:</span>
+                    <span>Legs and Core (Squats, Deadlifts, Lunges, Leg Press, Ab Work)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Friday:</span>
+                    <span>Shoulders and Arms (Overhead Press, Lateral Raises, Arm Supersets)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Saturday:</span>
+                    <span>Full Body (Compound Movements) or Rest</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Sunday:</span>
+                    <span>Complete Rest</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 class="font-semibold mb-2">Key Tips:</h4>
+                <ul class="list-disc pl-6 space-y-1">
+                  <li>Focus on progressive overload (gradually increasing weight or reps)</li>
+                  <li>Aim for 8-12 reps for hypertrophy (muscle growth)</li>
+                  <li>Rest 60-90 seconds between sets</li>
+                  <li>Consume adequate protein (1.6-2.2g per kg of bodyweight)</li>
+                  <li>Ensure you're in a slight caloric surplus</li>
+                  <li>Prioritize sleep and recovery</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- General Fitness Tab (hidden by default) -->
+            <div class="hidden bg-white p-6 rounded-lg shadow-md" id="general-fitness" role="tabpanel"
+              aria-labelledby="general-fitness-tab">
+              <h3 class="text-xl font-semibold mb-4">General Fitness Routine</h3>
+
+              <p class="mb-4">This balanced routine improves overall fitness, including strength, endurance,
+                flexibility, and cardiovascular health.</p>
+
+              <div class="mb-6">
+                <h4 class="font-semibold mb-2">Weekly Schedule:</h4>
+                <ul class="space-y-3">
+                  <li class="flex">
+                    <span class="font-medium w-24">Monday:</span>
+                    <span>Full Body Strength Training (45 minutes)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Tuesday:</span>
+                    <span>Cardio (30-40 minutes) + Core Work (15 minutes)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Wednesday:</span>
+                    <span>Yoga or Flexibility Training (45 minutes)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Thursday:</span>
+                    <span>HIIT or Circuit Training (30-40 minutes)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Friday:</span>
+                    <span>Full Body Strength Training (different exercises from Monday)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Saturday:</span>
+                    <span>Recreational Activity (hiking, swimming, sports, etc.)</span>
+                  </li>
+                  <li class="flex">
+                    <span class="font-medium w-24">Sunday:</span>
+                    <span>Rest or Light Activity (walking, gentle stretching)</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 class="font-semibold mb-2">Key Tips:</h4>
+                <ul class="list-disc pl-6 space-y-1">
+                  <li>Focus on consistency rather than intensity</li>
+                  <li>Include all components of fitness (strength, cardio, flexibility)</li>
+                  <li>Find activities you enjoy to make fitness sustainable</li>
+                  <li>Track progress in various ways (strength, endurance, how you feel)</li>
+                  <li>Balance nutrition to support your activity level</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Proper Exercise Technique -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-4 text-green-600 text-primary">Proper Exercise Technique</h2>
+          <p class="mb-6">Using correct form is crucial for preventing injuries and maximizing results. Here are proper
+            techniques for some fundamental exercises:</p>
+
+          <div class="space-y-6">
+            <!-- Squat -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h2 class="text-2xl text-green-600 font-semibold mb-3">Squat</h2>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="md:col-span-1 ">
+                  <img src="https://th.bing.com/th/id/OIP.qKRXTKHzKB2g23-yKya7FgAAAA?w=254&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Squat form" class="w-full  md:w-[260px] md:h-[130px] h-[140px] mt-8  "  style="box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;">
+                  
+                  <img src="https://th.bing.com/th/id/OIP.RyyKZWqZ-0ZXLYJ4NwjHrgHaDt?w=336&h=174&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Squat form" class=" w-full mt-8 " style="box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;">
+                </div>
+                <div class="md:col-span-2">
+                  <h4 class="font-semibold mb-2">Proper Technique:</h4>
+                  <ol class="list-decimal pl-6 space-y-1 mb-4">
+                    <li>Stand with feet shoulder-width apart, toes slightly turned out</li>
+                    <li>Keep chest up, shoulders back, and core engaged</li>
+                    <li>Begin the movement by hinging at the hips, then bend knees</li>
+                    <li>Lower until thighs are parallel to the ground (or as low as mobility allows)</li>
+                    <li>Keep weight in heels and mid-foot, not toes</li>
+                    <li>Ensure knees track in line with toes, not caving inward</li>
+                    <li>Push through heels to return to standing position</li>
+                  </ol>
+
+                  <h4 class="font-semibold mb-2">Common Mistakes:</h4>
+                  <ul class="list-disc pl-6 space-y-1">
+                    <li>Knees caving inward</li>
+                    <li>Rounding the lower back</li>
+                    <li>Rising onto toes or shifting weight forward</li>
+                    <li>Not reaching adequate depth</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Push-up -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-semibold mb-3">Push-up</h3>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="md:col-span-1">
+                  <img src="https://th.bing.com/th/id/OIP.gbcK81poNeEcGzXSI5ksoAHaE8?w=242&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Push-up form" class="rounded-lg w-full">
+                  <img src="https://th.bing.com/th/id/OIP.UP0CFagmdFatGtjo5ssKewHaEo?w=253&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Push-up form" class="rounded-lg w-full mt-8">
+                </div>
+                <div class="md:col-span-2">
+                  <h4 class="font-semibold mb-2">Proper Technique:</h4>
+                  <ol class="list-decimal pl-6 space-y-1 mb-4">
+                    <li>Start in a plank position with hands slightly wider than shoulder-width</li>
+                    <li>Keep body in a straight line from head to heels</li>
+                    <li>Engage core and glutes throughout the movement</li>
+                    <li>Lower body by bending elbows, keeping them at about a 45-degree angle to your body</li>
+                    <li>Lower until chest is about an inch from the ground</li>
+                    <li>Push back up to the starting position, fully extending arms</li>
+                    <li>Breathe out as you push up, inhale as you lower</li>
+                  </ol>
+
+                  <h4 class="font-semibold mb-2">Common Mistakes:</h4>
+                  <ul class="list-disc pl-6 space-y-1">
+                    <li>Sagging or hiking hips</li>
+                    <li>Flaring elbows out to the sides</li>
+                    <li>Not maintaining a straight line from head to heels</li>
+                    <li>Incomplete range of motion (not going low enough or fully extending)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Plank -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-semibold mb-3">Plank</h3>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="md:col-span-1">
+                  <img src="https://th.bing.com/th/id/OIP.E_IjEjLlLlWddEOBhVrMNAHaE8?w=270&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Plank form" class="rounded-lg w-full">
+                    <img src="https://th.bing.com/th/id/OIP.qg6HEPpRAq1a0zbMXgZU1AHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Plank form" class="rounded-lg w-full mt-8">
+                </div>
+                <div class="md:col-span-2">
+                  <h4 class="font-semibold text-green-600 mb-2">Proper Technique:</h4>
+                  <ol class="list-decimal pl-6 space-y-1 mb-4">
+                    <li>Start in a forearm position with elbows directly under shoulders</li>
+                    <li>Extend legs behind you, resting on balls of feet</li>
+                    <li>Create a straight line from head to heels</li>
+                    <li>Engage core by drawing navel toward spine</li>
+                    <li>Squeeze glutes and quads</li>
+                    <li>Keep neck neutral (don't look up or drop head)</li>
+                    <li>Breathe normally while holding the position</li>
+                  </ol>
+
+                  <h4 class="font-semibold text-green-600  mb-2">Common Mistakes:</h4>
+                  <ul class="list-disc pl-6 space-y-1">
+                    <li>Sagging hips or lower back</li>
+                    <li>Raising hips too high (pike position)</li>
+                    <li>Holding breath</li>
+                    <li>Shoulders not aligned with elbows</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Nutrition and Recovery -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-4 text-green-600 text-primary">Nutrition and Recovery</h2>
+          <p class="mb-6">Exercise is only part of the fitness equation. Proper nutrition and recovery are essential for
+            achieving your goals and maintaining health.</p>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Nutrition -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-semibold mb-3">Nutrition Basics</h3>
+
+              <h4 class="font-semibold mb-2">Macronutrients:</h4>
+              <ul class="list-disc pl-6 mb-4 space-y-2">
+                <li><span class="font-medium">Protein:</span> Essential for muscle repair and growth. Aim for 1.6-2.2g
+                  per kg of bodyweight for active individuals.</li>
+                <li><span class="font-medium">Carbohydrates:</span> Primary energy source for high-intensity exercise.
+                  Adjust based on activity level and goals.</li>
+                <li><span class="font-medium">Fats:</span> Important for hormone production and vitamin absorption.
+                  Include healthy sources like avocados, nuts, and olive oil.</li>
+              </ul>
+
+              <h4 class="font-semibold mb-2">Pre and Post-Workout Nutrition:</h4>
+              <ul class="list-disc pl-6 mb-4">
+                <li><span class="font-medium">Pre-workout:</span> Consume easily digestible carbs and some protein 1-3
+                  hours before exercise.</li>
+                <li><span class="font-medium">Post-workout:</span> Consume protein and carbs within 45 minutes after
+                  training to optimize recovery.</li>
+              </ul>
+
+              <h4 class="font-semibold mb-2">Hydration:</h4>
+              <p class="mb-4">Drink water throughout the day. During exercise, aim for 7-10 oz every 10-20 minutes of
+                activity.</p>
+
+              <h4 class="font-semibold mb-2">General Tips:</h4>
+              <ul class="list-disc pl-6">
+                <li>Focus on whole, minimally processed foods</li>
+                <li>Include a variety of fruits and vegetables</li>
+                <li>Adjust calorie intake based on your specific goals</li>
+                <li>Be consistent but allow flexibility</li>
+              </ul>
+            </div>
+
+            <!-- Recovery -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-semibold mb-3">Recovery Strategies</h3>
+
+              <h4 class="font-semibold mb-2">Sleep:</h4>
+              <p class="mb-4">Aim for 7-9 hours of quality sleep per night. Sleep is when your body repairs muscle
+                tissue and consolidates physical adaptations.</p>
+
+              <h4 class="font-semibold mb-2">Rest Days:</h4>
+              <p class="mb-4">Include 1-2 rest days per week. Active recovery (light walking, yoga) can be beneficial on
+                these days.</p>
+
+              <h4 class="font-semibold mb-2">Stretching and Mobility:</h4>
+              <p class="mb-4">Regular stretching improves flexibility and can reduce muscle soreness. Dedicate time to
+                mobility work, especially for problem areas.</p>
+
+              <h4 class="font-semibold mb-2">Additional Recovery Techniques:</h4>
+              <ul class="list-disc pl-6">
+                <li>Foam rolling and self-myofascial release</li>
+                <li>Contrast therapy (alternating hot and cold)</li>
+                <li>Massage</li>
+                <li>Proper cool-down after workouts</li>
+                <li>Stress management (meditation, deep breathing)</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-4 text-green-600 text-primary">Frequently Asked Questions</h2>
+
+          <div class="bg-white rounded-lg shadow-md">
+            <div class="border-b p-6">
+              <h3 class="text-lg font-semibold mb-2">How often should I exercise as a beginner?</h3>
+              <p class="text-gray-600">Start with 2-3 days per week, focusing on full-body workouts with adequate rest
+                between sessions. Gradually increase frequency as your fitness improves. Consistency is more important
+                than intensity when starting out.</p>
+            </div>
+
+            <div class="border-b p-6">
+              <h3 class="text-lg font-semibold mb-2">Should I do cardio or strength training first?</h3>
+              <p class="text-gray-600">It depends on your primary goal. If strength is your priority, do strength
+                training first when you have more energy. If endurance is your focus, you might prioritize cardio. For
+                general fitness, you can alternate which comes first or do them on separate days.</p>
+            </div>
+
+            <div class="border-b p-6">
+              <h3 class="text-lg font-semibold mb-2">How long should my workouts be?</h3>
+              <p class="text-gray-600">Quality matters more than duration. Effective workouts can range from 30-60
+                minutes. Beginners might start with 30 minutes and gradually increase. If workouts consistently exceed
+                60-75 minutes, you might be taking too much rest between sets or losing intensity.</p>
+            </div>
+
+            <div class="border-b p-6">
+              <h3 class="text-lg font-semibold mb-2">Do I need supplements to see results?</h3>
+              <p class="text-gray-600">No, supplements are not necessary for most people. Focus on a balanced diet
+                first. Supplements, as the name suggests, should supplement an already solid nutrition plan. Protein
+                powder can be convenient, and creatine is well-researched for strength training, but whole foods should
+                be your primary source of nutrients.</p>
+            </div>
+
+            <div class="p-6">
+              <h3 class="text-lg font-semibold mb-2">How long until I see results?</h3>
+              <p class="text-gray-600">This varies based on genetics, starting point, consistency, and goals. Generally,
+                you might notice improved energy and mood within 1-2 weeks, strength gains within 2-4 weeks, and visible
+                physical changes within 6-12 weeks. Remember that progress isn't always linear, and taking progress
+                photos or keeping a workout journal can help you recognize changes.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+     
+
+
+
+    </div>
+ <footer class=" bg-slate-800 bg-dark text-white py-8">
+        <div class="container  px-4">
+          <div class="mb-4">
+            <h3 class="text-2xl font-bold  mb-2">Fitness Guide</h3>
+            <p class="text-gray-400">This guide is for informational purposes only. Consult with a healthcare
+              professional before starting any new exercise program, especially if you have pre-existing health
+              conditions.</p>
+          </div>
+          <div class="border-t border-gray-700 pt-4 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-gray-400 mb-4 md:mb-0">© 2025 Fitness Guide. All rights reserved.</p>
+            <div class="flex space-x-4">
+              <a href="#" class="text-gray-400 hover:text-white transition">Terms of Use</a>
+              <a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
+              <a href="#" class="text-gray-400 hover:text-white transition">Contact</a>
+            </div>
+          </div>
+        </div>
+        </footer>
+
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get all tab buttons and content
+      const tabs = document.querySelectorAll('[role="tab"]');
+      const tabContents = document.querySelectorAll('[role="tabpanel"]');
+
+      // Add click event to each tab
+      tabs.forEach(tab => {
+        tab.addEventListener('click', function () {
+          // Remove active class from all tabs
+          tabs.forEach(t => {
+            t.classList.remove('border-primary', 'text-primary');
+            t.classList.add('border-transparent', 'hover:text-gray-600', 'hover:border-gray-300');
+            t.setAttribute('aria-selected', 'false');
+          });
+
+          // Add active class to clicked tab
+          this.classList.remove('border-transparent', 'hover:text-gray-600', 'hover:border-gray-300');
+          this.classList.add('border-primary', 'text-primary');
+          this.setAttribute('aria-selected', 'true');
+
+          // Hide all tab content
+          tabContents.forEach(content => {
+            content.classList.add('hidden');
+          });
+
+          // Show the selected tab content
+          const targetId = this.getAttribute('data-tabs-target').substring(1);
+          document.getElementById(targetId).classList.remove('hidden');
+        });
+      });
+
+      // Mobile menu toggle
+      const mobileMenuButton = document.querySelector('.mobile-menu-button');
+      const mobileMenu = document.querySelector('.mobile-menu');
+
+      if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', function () {
+          mobileMenu.classList.toggle('hidden');
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>
