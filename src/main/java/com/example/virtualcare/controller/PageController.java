@@ -42,6 +42,11 @@ public static String fitnesspage(){
     System.out.println("fitness page loading");
     return "fitness";
 }
+@GetMapping("/login")
+public static String login(){
+    System.out.println("fitness page loading");
+    return "login";
+}
 
 
 }
